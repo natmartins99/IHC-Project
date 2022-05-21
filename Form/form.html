@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="form.css" media="">
+    <title>MEETING</title>
+</head>
+<body>
+    
+    <div class="campo">
+        <h1 id="titulo">New meeting</h1>
+        <p id="subtitulo">Let's see how is your health!</p>
+        <br>
+    </div>
+
+    <form>
+        <fieldset class="grupo">
+            <div class="campo">
+                <label for="nome"><strong>Name</strong></label>
+                <input type="text" name="nome" id="nome" required>
+            </div>
+
+            <div class="campo">
+                <label for="sobrenome"><strong>Preferable name</strong></label>
+                <input type="text" name="Sobrenome" id="Sobrenome">
+            </div>
+        </fieldset>
+
+        <div class="campo">
+            <label for="email"><strong>E-mail</strong></label>
+            <input type="email" nome="email" id="email">
+        </div>
+
+        <div class="campo">
+            <br>
+            <label>How you doing at all (mental and phisical health)?</label>
+            <label>
+                <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+            </label>
+        </div>
+
+        <div class="campo">
+            <label><strong>Do you wanna receive some health information by e-mail?</strong></label>
+            <label>
+                <input type="radio" name="checkyes" value="yes" checked>YES
+            </label>
+            <label>
+                <input type="radio" name="checkno" value="no">NO 
+            </label>
+            <label for="email"><strong>E-mail</strong><input type="email" nome="email" id="email"></label>
+        </div>
+
+        <div class="campo">
+            <br>
+            <label><strong>Any feedbacks?</strong></label>
+            <textarea row="6" style="width: 26em" id="experiencia" name="experiencia"></textarea>
+        </div>
+
+        <button class="botao" type="submit">DONE</button>
+    </form>
+
+    <!-- Footer Section -->
+    <footer class="footer-distributed">
+        <div class="footer-left">
+
+			<h3>HEALTH<span> logo</span></h3>
+
+			<p class="footer-links">
+				<a href="/HOME/index.html" class="link-1">Home</a>
+					
+				<a href="/STORY/about.html">Blog</a>
+				
+				<a href="/START/starting.html">About</a>
+			</p>
+
+			<p class="footer-company-name">HEALTH © 2022</p>
+		</div>
+
+		<div class="footer-center">
+
+			<div>
+				<i class="fa fa-map-marker"></i>
+				<p><span>BR</span></p>
+
+			<div>
+				<i class="fa fa-envelope"></i>
+				<p><a href="mailto:nat.mds6@gmail.com"></a></p>
+            </div>
+		</div>
+
+		<div class="footer-right">
+
+			<p class="footer-company-about">
+				<span>About the company</span>
+				Helping you getting healthier!
+			</p>
+
+			<div class="footer-icons">
+
+				<a href="#"><i class="fa fa-linkedin"></i></a>
+				<a href="#"><i class="fa fa-github"></i></a>
+
+			</div>
+
+		</div>
+
+	</footer>
+</body>
+</html>
